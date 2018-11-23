@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2015,
+        "sourceType": "module"
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "array-bracket-spacing": "error",
+        "arrow-spacing": "error"
+    },
+    "plugins": [
+        "import"
+    ]
+}
